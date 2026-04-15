@@ -47,7 +47,7 @@ export default function CartDrawer({ open, onClose }: Props) {
             items.map((item) => (
               <div key={item.product.id} className="flex items-center gap-3 p-3 bg-gray-50 rounded-xl">
                 <div className="w-10 h-10 bg-emerald-50 rounded-lg flex items-center justify-center text-xl flex-shrink-0">
-                  {item.product.emoji}
+                  {item.product.image}
                 </div>
                 <div className="flex-1 min-w-0">
                   <p className="text-[12px] font-semibold text-gray-800 truncate">{item.product.name}</p>
