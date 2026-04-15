@@ -34,9 +34,15 @@ export default function Hero() {
       {/* SVG Vegetable Illustration */}
       <Image 
         src="/products/macamSayuran.png" 
-        alt="Bayam" 
-        width={500} 
-        height={500} 
+        alt="macamSayuran"
+        sizes="100vw"
+        priority
+        style={{
+        width: '38%',
+        height: 'auto',
+        }}
+        width={500}
+        height={300}
       />
     </section>
   );
